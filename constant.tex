@@ -11,19 +11,19 @@
 		No		&Voltage(V)	&time(ms)	\\
 		\midrule
 		1		&0.512		&16.0		\\
-	
+		
 		2		&0.880		&32.0		\\
-	
+		
 		3		&1.20		&44.0		\\
-	
+		
 		4		&1.52		&60.0		\\
-	
+		
 		5		&1.92		&80.0		\\
-	
+		
 		6		&2.28		&100		\\
-	
+		
 		7		&2.56		&116		\\
-	
+		
 		8		&2.60		&124		\\
 		
 		9		&3.68		&216		\\
@@ -32,22 +32,24 @@
 		\bottomrule
 	\end{tabular}\\
 \end{table}
-\phantom{ } Then we apply the data in Excel, we get a plot\ref{fig:2.1}:\\
+\phantom{ } Then we apply the data in Excel, we get a plot[\ref{fig:2.1}]:\\
 \begin{figure}[htbp]
-	\centering %¾ÓÖÐ
-	\includegraphics[width=\linewidth]{images/2_1.PNG} %¿í¶È£¬ÎÄ¼þµØÖ·
-	\caption{plot V-t} %±êÌâ
-	\label{fig:2.1} %±ê¼Ç£¨ÒýÓÃÊ±ÓÃ£©
+	\centering %居中
+	\includegraphics[width=\linewidth]{images/2_1.PNG} %宽度，文件地址
+	\caption{plot on the Voltage of capacitor in the original circuit with time.} %标题
+	\label{fig:2.1} %标记（引用时用）
 \end{figure}\\
-\phantom{ } As the instruction suggested, we made the x-axis(time) into logarithmic and plot again\ref{fig:2.2} :\\
+\phantom{ } As the instruction suggested, we made the x-axis(time) into logarithmic and plot again[\ref{fig:2.2}] :\\
 \begin{figure}[htbp]
-	\centering %¾ÓÖÐ
-	\includegraphics[width=\linewidth]{images/2_2.PNG} %¿í¶È£¬ÎÄ¼þµØÖ·
-	\caption{plot V-ln(t)} %±êÌâ
-	\label{fig:2.2} %±ê¼Ç£¨ÒýÓÃÊ±ÓÃ£©
+	\centering %居中
+	\includegraphics[width=\linewidth]{images/2_2.PNG} %宽度，文件地址
+	\caption{plot on the Voltage of capacitor in the original circuit with logarithmic time.} %标题
+	\label{fig:2.2} %标记（引用时用）
 \end{figure}
 \phantom{ } Then we fit a linear line to this plot, and we get a slope of 1.35.
-we get its inverse 0.74, which has an 
+we get its inverse 0.74. Also, we calculated the theoretic value for $\tau$ and got\\
+$\tau = RC = 10k\Omega * 0.01\mu F = 0.1ms$, which led to a \% error.
+\phantom{ } 
 %\begin{table}[h]\centering
 %	\begin{tabular}{}
 %		\hline
@@ -78,5 +80,5 @@ we get its inverse 0.74, which has an
 %				&			&			\\
 %	\end{tabular}
 %\end{table}
-	
+
 
