@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.6.28)  1 JUL 2017 23:28
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.7.1)  2 JUL 2017 22:45
 entering extended mode
 **./document.tex
 (document.tex
@@ -273,38 +273,57 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 <images/2_1.PNG, id=19, 351.56343pt x 208.52907pt>
 File: images/2_1.PNG Graphic file (type png)
  <use images/2_1.PNG>
-Package pdftex.def Info: images/2_1.PNG used on input line 38.
+Package pdftex.def Info: images/2_1.PNG used on input line 40.
 (pdftex.def)             Requested size: 252.0pt x 149.47261pt.
 
 <images/2_2.PNG, id=20, 352.31625pt x 207.77625pt>
 File: images/2_2.PNG Graphic file (type png)
  <use images/2_2.PNG>
-Package pdftex.def Info: images/2_2.PNG used on input line 45.
+Package pdftex.def Info: images/2_2.PNG used on input line 47.
 (pdftex.def)             Requested size: 252.0pt x 148.61594pt.
-)
-(sinus.tex) (conclusions.tex) (appendix.tex) [2 <./images/2_1.PNG> <./images/2_
-2.PNG>] (document.aux) ) 
+
+<images/2_3.PNG, id=21, 520.94624pt x 219.82124pt>
+File: images/2_3.PNG Graphic file (type png)
+ <use images/2_3.PNG>
+Package pdftex.def Info: images/2_3.PNG used on input line 59.
+(pdftex.def)             Requested size: 252.0pt x 106.33476pt.
+
+<images/2_4.PNG, id=22, 721.19438pt x 207.77625pt>
+File: images/2_4.PNG Graphic file (type png)
+ <use images/2_4.PNG>
+Package pdftex.def Info: images/2_4.PNG used on input line 99.
+(pdftex.def)             Requested size: 252.0pt x 72.59912pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--136
+
+ []
+
+[2 <./images/2_1.PNG> <./images/2_2.PNG> <./images/2_3.PNG> <./images/2_4.PNG>]
+) (sinus.tex) (conclusions.tex) (appendix.tex) [3
+
+] (document.aux) ) 
 Here is how much of TeX's memory you used:
- 2423 strings out of 493323
- 39250 string characters out of 3139066
- 108678 words of memory out of 3000000
- 5930 multiletter control sequences out of 15000+200000
+ 2435 strings out of 493323
+ 39432 string characters out of 3139064
+ 110694 words of memory out of 3000000
+ 5940 multiletter control sequences out of 15000+200000
  40463 words of font info for 74 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  39i,9n,25p,654b,216s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.en
-c}<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Pr
-ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Program Fil
-es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX
- 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/font
-s/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/p
-ublic/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/u
-tmb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmbi8a.pfb><C:/Pr
-ogram Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTe
-X 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on document.pdf (2 pages, 229792 bytes).
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/
+Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program 
+Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Program Files/MiK
+TeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX 2.9/f
+onts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
+1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/
+amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/c
+m/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/
+Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmbi8a.pfb><C:/Program Files/Mi
+KTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
+pe1/urw/times/utmri8a.pfb>
+Output written on document.pdf (3 pages, 281869 bytes).
 PDF statistics:
- 58 PDF objects out of 1000 (max. 8388607)
+ 69 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 21 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 31 words of extra memory for PDF output out of 10000 (max. 10000000)
 
