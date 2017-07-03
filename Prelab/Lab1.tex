@@ -1,0 +1,70 @@
+\documentclass{IEEEtran}
+\usepackage{graphicx}
+\title{Prelab Report}
+\author{Group8: Muhan Li, Man Sun, Mingxiao An}
+\begin{document}
+	\maketitle
+	\section{Prelab\#1}
+	\begin{equation}
+		C\frac{\mathrm{d}v_{out}}{\mathrm{d}t}=I=\frac{v_{in} - v_{out}}{R}
+	\end{equation}
+	\begin{equation}
+		v_{out} + RC\frac{\mathrm{d}v_{out}}{\mathrm{d}t} = v_{in}
+	\end{equation}
+	\section{Prelab\#2}
+	\begin{equation}
+		v_{out}(t) = -V_0\mathrm{e}^{-\frac{t}{RC}} + V_0
+	\end{equation}
+	\section{Prelab\#3}
+		\includegraphics[width=3.8in]{images/Prelab3.png}
+	\section{Prelab\#4}
+	\begin{equation}
+		v_{out}(0) = V_0
+	\end{equation}
+	\begin{equation}
+		v_{out}(t) = V_0\mathrm{e}^{-\frac{t}{RC}}
+	\end{equation}
+	\section{Prelab\#5}
+		\includegraphics[width=3.8in]{images/Prelab5.png}
+	\section{Prelab\#6}
+		\paragraph{Time Constant} $\tau = RC$ 
+		\paragraph{Rise Time} \hfill\newline
+		10\%-point: $\mathrm{e}^{-\frac{t}{RC}} = 0.9, t = 0.1RC$; \newline
+		90\%-point: $\mathrm{e}^{-\frac{t}{RC}} = 0.1, t = 2.3RC$; \newline
+		rise time is $2.3RC - 0.1RC = 2.2RC$
+		\paragraph{Fall Time} \hfill\newline
+		90\%-point: $\mathrm{e}^{-\frac{t}{RC}} = 0.9, t = 0.1RC$; \newline
+		10\%-point: $\mathrm{e}^{-\frac{t}{RC}} = 0.1, t = 2.3RC$; \newline
+		fall time is $2.3RC - 0.1RC = 2.2RC$
+		\paragraph{Delay Time} \hfill\newline
+		90\%-point: $\mathrm{e}^{-\frac{t}{RC}} = 0.5, t = 0.69RC$; \newline
+		delay time is $0.69RC$ for both R and C
+	\section{Prelab\#7}
+		\includegraphics[width=3.8in]{images/Prelab7.png}
+	\section{Prelab\#8}
+		\paragraph{Figure 3.1.1} $\tau = RC$
+		\paragraph{Figure 3.1.2} $\tau = R_1(C_1 + C_2) + R_2C_2 = 3RC$
+		\paragraph{Figure 3.1.3} $\tau = R_1(C_1 + C_2 + C_3) + R_2(C_2 + C_3) + R_3C_3 = 6RC$
+	\section{Prelab\#9}
+	\begin{equation}
+		v_{out} + RC\frac{\mathrm{d}v_{out}}{\mathrm{d}t} = V_0\cos{\omega t}
+	\end{equation}
+	\section{Prelab\#10}
+		\includegraphics[width=3.8in]{images/Prelab10.png}
+		The output signal is a sinusoidal function. \newline
+		The period $T = \frac{1}{f} = 1\mathrm{ms}$ \newline
+		The magnitude $|v_{out}(t)| = \frac{v_0}{1 + R^2C^2\omega^2} = 0.717$ 
+	\section{Prelab\#11}
+		\includegraphics[width=3.8in]{images/Prelab11.png}
+		$|v_{out}(10\mathrm{Hz})| = 0.999$ \newline
+		$|v_{out}({1\mathrm{MHz}})| = 1.59 \times 10^{-3}$ \newline
+		$f \to 0$, $|v_{out}(f)| \to V_0 = 1V$ \newline 
+		$f \to \infty$, $|v_{out}(f)| \to 0V$
+	\section{Prelab\#12}
+		\includegraphics[width=3.8in]{images/Prelab12.png}
+		$|v_{out}(1\mathrm{Hz})| = 6.28 \times 10^{-4}$ \newline
+		$|v_{out}({1\mathrm{MHz}})| = 0.999$ \newline
+		$f \to 0$, $|v_{out}(f)| \to 0V$ \newline 
+		$f \to \infty$, $|v_{out}(f)| \to V_0 = 1V$ \newline
+		Explanation: the capacitor behaves like a low-pass filter while the resistor behaves like a high-pass filter. Because the sum of two voltages of R and C is $v_{in}$ as a constant, their behaviors are just the opposite.
+\end{document}
