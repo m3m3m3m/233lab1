@@ -1,19 +1,20 @@
 \hfill \newline
-\phantom{ } We built the circuit in figure \ref{fig:cir} with a resistor of $10\mathrm{k\Omega}$ and a capacitor of
-$0.01\mathrm{\mu F}$. We set the function generator to provide a square wave input with the period $T=4.00000000\mathrm{ms}$ and the voltage of $V_{pp}=5\mathrm{V}$ with offset $+2.5\mathrm{V}$, which generates a square wave of maximum voltage $5\mathrm{V}$ and minimum $0\mathrm{V}$.
+\phantom{ } We built the circuit in figure[\ref{fig:cir}] with a resistor of $10\mathrm{k\Omega}$ and a capacitor of
+$0.01\mathrm{\mu F}$. However, the actual resistance and capacitance we got are $R_1=10.1\mathrm{k\Omega}$ and $C_1=0.0183\mathrm{\mu F}$. Thus, $\tau_1 = R_1C_1 = 0.185\mathrm{\mu s}$. \newline
+\phantom{ } We set the function generator to provide a square wave input with the period $T=4.00000000\mathrm{ms}$ and the voltage of $V_{pp}=5\mathrm{V}$ with offset $+2.5\mathrm{V}$, which generates a square wave of maximum voltage $5\mathrm{V}$ and minimum $0\mathrm{V}$.
 
 \begin{figure}[!htbp]
 	\centering
-	\includegraphics[width=\linewidth]{images/circuit.PNG}
+	\includegraphics[width=\linewidth]{images/1_1.PNG}
 	\caption{RC circuit for square wave input analysis}
 	\label{fig:cir}
 \end{figure}
 
-We used channel 1 of the oscilloscope to verify the input and measured the output voltage of the capacitor by channel 2. Figure \ref{fig:osc1} is the screen output of two and half cycles.
+We used channel 1 of the oscilloscope to verify the input and measured the output voltage of the capacitor by channel 2. Figure[\ref{fig:osc1}] is the screen output of two and half cycles.
 
 \begin{figure}[!htbp]
 	\centering
-	\includegraphics[width=0.95\linewidth]{images/osc1.JPG}
+	\includegraphics[width=0.95\linewidth]{images/1_2.JPG}
 	\caption{The waveform of input and measure}
 	\label{fig:osc1}
 \end{figure}
@@ -21,7 +22,7 @@ We used channel 1 of the oscilloscope to verify the input and measured the outpu
 \textbf{Analyze \#1:} \newline
 \phantom{ } The oscilloscope did display the same waveform plotted in Prelab\#7. They are of the same shape, and both of their peaks and valleys reach the input waveform. Meanwhile, no obvious difference is found. \newline
 
-Using the \textit{Cursor} menu, we recorded the period $T$, as well as the range of the output signal. Then we measured the time value of the $10\%$, $90\%$, and $50\%$ point of $V_{out}$. The results are shown in table \ref{tab:mea}.
+Using the \textit{Cursor} menu, we recorded the period $T$, as well as the range of the output signal. Then we measured the time value of the $10\%$, $90\%$, and $50\%$ point of $V_{out}$. The results are shown in table[\ref{tab:mea}].
 
 \begin{table}[!htbp]
 	\centering
@@ -44,22 +45,40 @@ Using the \textit{Cursor} menu, we recorded the period $T$, as well as the range
 	\label{tab:mea}
 \end{table}
 
-\textbf{Analysis \#2:} \newline
-\phantom{ } After calculating the rise time, fall time, and delay time of the RC circuit, we got table \ref{tab:cal}
+\phantom{ } After calculating the rise time, fall time, and delay time of the RC circuit, we got table[\ref{tab:cal}]. Using the results we've calculated in prelab, both rise time and fall time are $2.2\tau$, and delay times are $0.69\tau$.
 
 \begin{table}[!htbp]
 	\centering
-	\caption{Measurements of the output signal}
+	\caption{Comparing actual values with theoretical values I}
 	\begin{tabular}{lcccl}
 		\toprule
-		name & actual value & theoretical value & PE & \\
+		name & actual value (calculated) & theoretical value & PE & \\
 		\midrule
-		rise time & $348\mathrm{\mu s}$ & ${220\mu s}$ & $58.2\%$ & \\
-		fall time & $??\mathrm{\mu s}$ &  ${220\mu s}$ & $??\%$ & \\
-		delay time (LH) & $116\mathrm{\mu s}$ & ${69\mu s}$ & $68.1\%$ & \\
-		delay time (HL) & $??\mathrm{\mu s}$ &  ${69\mu s}$ & $??\%$ & \\
+		rise time & $348\mathrm{\mu s}$ & ${407\mu s}$ & $58.2\%$ & \\
+		fall time & $??\mathrm{\mu s}$ &  ${407\mu s}$ & $??\%$ & \\
+		delay time (LH) & $116\mathrm{\mu s}$ & ${128\mu s}$ & $68.1\%$ & \\
+		delay time (HL) & $??\mathrm{\mu s}$ &  ${128\mu s}$ & $??\%$ & \\
 		\bottomrule
 	\end{tabular}
 	\label{tab:cal}
 \end{table}
 
+\textbf{Analysis \#2:} \newline
+
+\begin{table}[!htbp]
+	\centering
+	\caption{Comparing actual values with theoretical values II}
+	\begin{tabular}{lcccl}
+		\toprule
+		name & actual value (measured) & theoretical value & PE & \\
+		\midrule
+		rise time & $348\mathrm{\mu s}$ & ${407\mu s}$ & $58.2\%$ & \\
+		fall time & $??\mathrm{\mu s}$ &  ${407\mu s}$ & $??\%$ & \\
+		delay time (LH) & $116\mathrm{\mu s}$ & ${128\mu s}$ & $68.1\%$ & \\
+		delay time (HL) & $??\mathrm{\mu s}$ &  ${128\mu s}$ & $??\%$ & \\
+		\bottomrule
+	\end{tabular}
+	\label{tab:dir}
+\end{table}
+
+\textbf{Analysis \#3:} \newline
