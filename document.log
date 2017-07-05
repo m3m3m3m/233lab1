@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.6.28)  5 JUL 2017 08:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.6.28)  5 JUL 2017 09:07
 entering extended mode
 **./document.tex
 (document.tex
@@ -266,10 +266,30 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 30.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 30.
-) (constant.tex [1{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}
+
+Overfull \hbox (16.62485pt too wide) in paragraph at lines 53--64
+ [][] 
+ []
 
 
- <./images/1_1.PNG> <./images/1_2.JPG>]
+Underfull \hbox (badness 10000) in paragraph at lines 66--67
+
+ []
+
+
+Overfull \hbox (14.84898pt too wide) in paragraph at lines 71--82
+ [][] 
+ []
+
+)
+Underfull \hbox (badness 10000) in paragraph at lines 84--24
+
+ []
+
+[1{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}
+
+
+ <./images/1_1.PNG> <./images/1_2.JPG>] (constant.tex
 <images/2_1.PNG, id=20, 392.96812pt x 227.34938pt>
 File: images/2_1.PNG Graphic file (type png)
  <use images/2_1.PNG>
@@ -351,34 +371,34 @@ Underfull \hbox (badness 10000) in paragraph at lines 35--174
  []
 
 [2 <./images/2_1.PNG> <./images/2_2.PNG>] [3 <./images/2_3.PNG> <./images/2_5.P
-NG> <./images/2_6.PNG> <./images/2_4.PNG> <./images/2_7.PNG>]) (sinus.tex)
-(conclusions.tex) (appendix.tex) [4
+NG> <./images/2_6.PNG> <./images/2_4.PNG>]) (sinus.tex) (conclusions.tex)
+(appendix.tex) [4
 
- <./images/2_8.PNG>] (document.aux) ) 
+ <./images/2_7.PNG> <./images/2_8.PNG>] (document.aux) ) 
 Here is how much of TeX's memory you used:
- 2459 strings out of 493323
- 39771 string characters out of 3139066
- 118727 words of memory out of 3000000
- 5960 multiletter control sequences out of 15000+200000
+ 2460 strings out of 493323
+ 39780 string characters out of 3139066
+ 118737 words of memory out of 3000000
+ 5961 multiletter control sequences out of 15000+200000
  40463 words of font info for 74 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  39i,9n,25p,822b,216s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files/MiKTeX 2.9/fonts/enc/dvi
-ps/base/8r.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi
-10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C
-:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Program
- Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files/Mi
-KTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/
-fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
-e1/public/amsfonts/cm/cmr5.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/
-amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/c
-m/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.p
-fb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Pr
-ogram Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTe
-X 2.9/fonts/type1/urw/times/utmbi8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
-1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmri
-8a.pfb>
-Output written on document.pdf (4 pages, 372096 bytes).
+{C:/Program Files/MiKTe
+X 2.9/fonts/enc/dvips/base/8r.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/publ
+ic/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfo
+nts/cm/cmmi5.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
+mi6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><
+C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Progra
+m Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/M
+iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Program Files/MiKTeX 2.9/
+fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
+1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/a
+msfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/
+cm/cmsy7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/
+Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmbi8a.pfb><C:/Program Files/Mi
+KTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
+pe1/urw/times/utmri8a.pfb>
+Output written on document.pdf (4 pages, 372875 bytes).
 PDF statistics:
  96 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
