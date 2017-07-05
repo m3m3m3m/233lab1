@@ -1,0 +1,11 @@
+\textbf{Procedure of conduction in Analysis \#4:} \newline
+\phantom{ } From the lab instruction, we get a formula\\
+$Ratio(t) = \frac{|v_{out}(t) - v_{in}|}{|V_0|} = e^{-\frac{t}{\tau}}$\\
+\phantom{ } In the process of rising, we can take $v_{in}$ as $V_0$, because it stays at this value during the whole rising process.\\
+$Ratio(t) = \frac{|v_{out}(t) - V_0|}{|V_0|} = e^{-\frac{t}{\tau}}$\\
+\phantom{ } Because the whole rising process shows that the capacitor is charging, which means that $v_{out} - V_0 < 0$ holds true during the whole rising. Also, we can make sure that $V_0$ is always a positive number in this case. Then we conducted our 
+computation for Ratio(t).\\
+$Ratio(t) = \frac{v_{out}(t) - V_0}{V_0} = \frac{v_{out}(t)}{V_0} - 1$\\
+\phantom{ } Then, if we apply $\ln$ operation to the Ratio(t) and exponential part, we get this.\\
+$\ln(Ratio(t)) = -\frac{t}{\tau}$\\
+\phantom{ } So the exponential part becomes linear, which is easy to analysis.\\
