@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.7.1)  5 JUL 2017 13:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.7.1)  5 JUL 2017 14:10
 entering extended mode
 **./document.tex
 (document.tex
@@ -296,86 +296,77 @@ File: images/2_1.PNG Graphic file (type png)
 Package pdftex.def Info: images/2_1.PNG used on input line 39.
 (pdftex.def)             Requested size: 252.0pt x 145.79797pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 45--46
-
- []
-
 <images/2_2.PNG, id=21, 584.93532pt x 421.575pt>
 File: images/2_2.PNG Graphic file (type png)
  <use images/2_2.PNG>
-Package pdftex.def Info: images/2_2.PNG used on input line 49.
+Package pdftex.def Info: images/2_2.PNG used on input line 47.
 (pdftex.def)             Requested size: 252.0pt x 181.62108pt.
 
 <images/2_3.PNG, id=22, 520.94624pt x 219.82124pt>
 File: images/2_3.PNG Graphic file (type png)
  <use images/2_3.PNG>
-Package pdftex.def Info: images/2_3.PNG used on input line 68.
+Package pdftex.def Info: images/2_3.PNG used on input line 66.
 (pdftex.def)             Requested size: 252.0pt x 106.33476pt.
 
 <images/2_5.PNG, id=23, 421.575pt x 247.67531pt>
 File: images/2_5.PNG Graphic file (type png)
  <use images/2_5.PNG>
-Package pdftex.def Info: images/2_5.PNG used on input line 105.
+Package pdftex.def Info: images/2_5.PNG used on input line 103.
 (pdftex.def)             Requested size: 252.0pt x 148.05078pt.
 
 <images/2_6.PNG, id=24, 683.55376pt x 468.24937pt>
 File: images/2_6.PNG Graphic file (type png)
  <use images/2_6.PNG>
-Package pdftex.def Info: images/2_6.PNG used on input line 111.
+Package pdftex.def Info: images/2_6.PNG used on input line 109.
 (pdftex.def)             Requested size: 252.0pt x 172.62079pt.
 
 <images/2_4.PNG, id=25, 721.19438pt x 207.77625pt>
 File: images/2_4.PNG Graphic file (type png)
  <use images/2_4.PNG>
-Package pdftex.def Info: images/2_4.PNG used on input line 122.
+Package pdftex.def Info: images/2_4.PNG used on input line 120.
 (pdftex.def)             Requested size: 252.0pt x 72.59912pt.
 
 <images/2_7.PNG, id=26, 390.70969pt x 245.41687pt>
 File: images/2_7.PNG Graphic file (type png)
  <use images/2_7.PNG>
-Package pdftex.def Info: images/2_7.PNG used on input line 159.
+Package pdftex.def Info: images/2_7.PNG used on input line 157.
 (pdftex.def)             Requested size: 252.0pt x 158.29079pt.
 
 <images/2_8.PNG, id=27, 715.17188pt x 471.26062pt>
 File: images/2_8.PNG Graphic file (type png)
  <use images/2_8.PNG>
-Package pdftex.def Info: images/2_8.PNG used on input line 165.
+Package pdftex.def Info: images/2_8.PNG used on input line 163.
 (pdftex.def)             Requested size: 252.0pt x 166.05107pt.
 
-Underfull \hbox (badness 1675) in paragraph at lines 35--177
+Underfull \hbox (badness 1675) in paragraph at lines 35--175
  [] \OT1/ptm/m/n/10 Af-ter we tried to con-duct(for de-tails, please check
  []
 
 
-Underfull \hbox (badness 5245) in paragraph at lines 35--177
-\OT1/ptm/m/n/10 slope of -4970. we get its in-verse $\OT1/cmr/m/n/10 2\OML/cmm/
+Underfull \hbox (badness 5064) in paragraph at lines 35--175
+\OT1/ptm/m/n/10 slope of -4970. we got its in-verse $\OT1/cmr/m/n/10 2\OML/cmm/
 m/it/10 :\OT1/cmr/m/n/10 012 \OMS/cmsy/m/n/10  \OT1/cmr/m/n/10 10[]\OML/cmm/m/
 it/10 s$\OT1/ptm/m/n/10 .
  []
 
 
-Underfull \hbox (badness 1584) in paragraph at lines 35--177
+Underfull \hbox (badness 1584) in paragraph at lines 35--175
 \OT1/ptm/m/n/10 Also, we cal-cu-lated the the-o-retic value for $\OML/cmm/m/it/
 10 $ \OT1/ptm/m/n/10 and got
  []
 
 
-Underfull \hbox (badness 3029) in paragraph at lines 35--177
- [] \OT1/ptm/m/n/10 Like in the orig-i-nal cir-cuit, we plot two fig-ures
- []
-
-
-Underfull \hbox (badness 3849) in paragraph at lines 35--177
+Underfull \hbox (badness 3849) in paragraph at lines 35--175
 \OT1/ptm/m/n/10 to show the rel-a-tive of our mea-sures in three-stage.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 35--177
+Underfull \hbox (badness 10000) in paragraph at lines 35--175
  [] \OT1/ptm/m/n/10 We then get the time con-stant of three-stage
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 35--177
+Underfull \hbox (badness 10000) in paragraph at lines 35--175
 
  []
 
@@ -410,12 +401,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 18--28
 
  []
 
-(conclusions.tex) [4 <./images/2_7.PNG> <./images/2_8.PNG>] (appendix.tex)
+(conclusions.tex) (appendix.tex)
 Underfull \hbox (badness 10000) in paragraph at lines 1--32
 
  []
 
-[5
+[4 <./images/2_7.PNG> <./images/2_8.PNG>] [5
 
 ] (document.aux) ) 
 Here is how much of TeX's memory you used:
@@ -440,7 +431,7 @@ s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files/MiKTeX
 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/u
 rw/times/utmbi8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.
 pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on document.pdf (5 pages, 383173 bytes).
+Output written on document.pdf (5 pages, 383131 bytes).
 PDF statistics:
  99 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
