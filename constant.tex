@@ -2,7 +2,7 @@
 \phantom{ } When we were measuring the voltages and their according time, we used the Cursor whose type was time and took Channel 2 as its source. We settle one of the cursor at start point of a rising or falling action, and moved the other cursor slightly. We also scaled the width of the waveform to get a more accurate move.\\
 \phantom{ } Our recordings for the original circuit are shown in the table below.
 
-\begin{table}[htbp]\centering
+\begin{table}[!htbp]\centering
 	\caption{Experiment record in the original circuit}
 	\renewcommand\arraystretch{1.5}
 	\begin{tabular}{lcl}
@@ -33,20 +33,21 @@
 \end{table}
 \textbf{Analyze \#4:} \newline
 \phantom{ } Then we apply the data in Excel, we get a plot[\ref{fig:2.1}].\\
-\begin{figure}[htbp]
+\begin{figure}[!htbp]
 	\centering %居中
 	\includegraphics[width=\linewidth]{images/2_1.PNG} %宽度，文件地址
-	\caption{plot on the Voltage of capacitor in the original circuit with time.} %标题
+	\caption{Plot on the Voltage of capacitor in the original circuit with time.} %标题
 	\label{fig:2.1} %标记（引用时用）
 \end{figure}
-\phantom{ } After we tried to conduct the formula under the Analysis \#4 in the instruction file, we found that we need to adjust the value of y-axis from $V_{out}(t)$ to $\frac{V_0 - V_{out}(t)}{V_0}$ so that the unit of voltage is unrelated to the final result, also leaving the exponential part alone on the right side of the equality mark. Also, it is the y-axis(ratio) that needs to be logarithmic, not x-axis(time). After making y-axis logarithmic, it is equivalent to applying the ln operation to both side of the equation and taking the left side as y. Thus making the right side become $-\frac{t}{\tau}$. Then we can fit the current plot to a linear line and calculate the time constant from the inverse of the line's slope as shown in the graph[\ref{fig:2.2}].\\
-\begin{figure}[htbp]
+\phantom{ }After we tried to conduct the formula under the Analysis \#4 in the instruction file, we found that we need to adjust the value of y-axis from $V_{out}(t)$ to $\frac{V_0 - V_{out}(t)}{V_0}$ so that the unit of voltage is unrelated to the final result, also leaving the exponential part alone on the right side of the equality mark. Also, it is the y-axis(ratio) that needs to be logarithmic, not x-axis(time). After making y-axis logarithmic, it is equivalent to applying the ln operation to both side of the equation and taking the left side as y. Thus making the right side become $-\frac{t}{\tau}$. Then we can fit the current plot to a linear line and calculate the time constant from the inverse of the line's slope as shown in the graph[\ref{fig:2.2}].\\
+\begin{figure}[!htbp]
 	\centering %居中
 	\includegraphics[width=\linewidth]{images/2_2.PNG} %宽度，文件地址
 	\caption{plot on the logarithmic ratio ({\tiny }) in the original circuit with time.} %标题
 	\label{fig:2.2} %标记（引用时用）
 \end{figure}
-\phantom{ } Then we fit a linear line to this plot, and we get a slope of -4970.
+%\phantom{ } 
+Then we fit a linear line to this plot, and we get a slope of -4970.
 we get its inverse $2.012\times10^{-4}s$. Also, we calculated the theoretic value for $\tau$ and got 
 $\tau = RC = 10k\Omega \times 0.01\mu F = 1\times10^{-4}s$, which led to a 101\% error.\\
 We think it was pretty strange, so we used the multimeter to measure the actual value of the resistor and capacitor we used in our circuit. From measurement, we found that the real value of resistor was 10.1k$\Omega$, which was quite near to its printed value 10k$\Omega$. However, the capacitor's real value had a great error with its printed value. The capacitor we used had an actual capacity of 18.3nF. After we put the real value of our elements into the calculation of theoretical value of time constant, we got \\
@@ -58,14 +59,14 @@ But there are still some difference. We discussed and think that the possible re
 4. The capacitor may act like a resistor or an inductor at extreme frequencies.\\
 \textbf{Analyze \#5:} \newline
 \phantom{ } To finish this analysis, we built a two-stage circuit and then a three-stage circuit. Our two-stage circuit is built according to graph[\ref{fig:2.3}].\\
-\begin{figure}[htbp]
+\begin{figure}[!htbp]
 	\centering %居中
 	\includegraphics[width=\linewidth]{images/2_3.PNG} %宽度，文件地址
-	\caption{the circuit graph of two-stage circuit} %标题
+	\caption{The circuit graph of two-stage circuit} %标题
 	\label{fig:2.3} %标记（引用时用）
 \end{figure}
 \phantom{ } In the same way as in the original circuit, we measure 10 points to compute its time constant.
-\begin{table}[htbp]\centering
+\begin{table}[!htbp]\centering
 	\caption{Experiment record in the two-stage circuit}
 	\renewcommand\arraystretch{1.5}
 	\begin{tabular}{lcl}
@@ -95,16 +96,16 @@ But there are still some difference. We discussed and think that the possible re
 	\end{tabular}
 \end{table}
 \phantom{ } Like in the original circuit, we plot two figures to show the relative of our measures in two-stage.
-\begin{figure}[htbp]
+\begin{figure}[!htbp]
 	\centering %居中
 	\includegraphics[width=\linewidth]{images/2_5.PNG} %宽度，文件地址
-	\caption{plot on the Voltage of capacitor in the two-stage circuit with time.} %标题
+	\caption{Plot on the Voltage of capacitor in the two-stage circuit with time.} %标题
 	\label{fig:2.5} %标记（引用时用）
 \end{figure}
-\begin{figure}[htbp]
+\begin{figure}[!htbp]
 	\centering %居中
 	\includegraphics[width=\linewidth]{images/2_6.PNG} %宽度，文件地址
-	\caption{plot on the Voltage of capacitor in the two-stage circuit with time.} %标题
+	\caption{Plot on the Voltage of capacitor in the two-stage circuit with time.} %标题
 	\label{fig:2.6} %标记（引用时用）
 \end{figure}
 \phantom{ } We then get the time constant of two-stage 
@@ -112,14 +113,14 @@ $\tau = -\frac{1}{slope} = -\frac{1}{-1825} = 5.479\times10^{-4} $.\\ And accord
 the theoretical value of time constant in this case:\\
 $\tau = 3RC = 3\times1.85\times10^{-4} = 5.55\times10^{-4}$ and the percent error $error = 1.28\%$.\\
 \phantom{ } Our three-stage circuit was built based on graph[\ref{fig:2.4}].\\
-\begin{figure}[htbp]
+\begin{figure}[!htbp]
 	\centering %居中
 	\includegraphics[width=\linewidth]{images/2_4.PNG} %宽度，文件地址
-	\caption{the circuit graph of three-stage circuit} %标题
+	\caption{The circuit graph of three-stage circuit} %标题
 	\label{fig:2.4} %标记（引用时用）
 \end{figure}
 \phantom{ } And our measure points are listed below:\\
-\begin{table}[htbp]\centering
+\begin{table}[!htbp]\centering
 	\caption{Experiment record in the three-stage circuit}
 	\renewcommand\arraystretch{1.5}
 	\begin{tabular}{lcl}
@@ -149,16 +150,16 @@ $\tau = 3RC = 3\times1.85\times10^{-4} = 5.55\times10^{-4}$ and the percent erro
 	\end{tabular}
 \end{table}
 \phantom{ } Like in the original circuit, we plot two figures to show the relative of our measures in three-stage.
-\begin{figure}[htbp]
+\begin{figure}[!htbp]
 	\centering %居中
 	\includegraphics[width=\linewidth]{images/2_7.PNG} %宽度，文件地址
-	\caption{plot on the Voltage of capacitor in the three-stage circuit with time.} %标题
+	\caption{Plot on the Voltage of capacitor in the three-stage circuit with time.} %标题
 	\label{fig:2.7} %标记（引用时用）
 \end{figure}
-\begin{figure}[htbp]
+\begin{figure}[!htbp]
 	\centering %居中
 	\includegraphics[width=\linewidth]{images/2_8.PNG} %宽度，文件地址
-	\caption{plot on the Voltage of capacitor in the three-stage circuit with time.} %标题
+	\caption{Plot on the Voltage of capacitor in the three-stage circuit with time.} %标题
 	\label{fig:2.8} %标记（引用时用）
 \end{figure}
 \phantom{ } We then get the time constant of three-stage 
