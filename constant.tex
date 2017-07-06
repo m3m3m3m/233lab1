@@ -35,18 +35,25 @@
 \hfill \newline
 \textbf{Analyze \#4:} \newline
 \phantom{ } Then we applied the data in Excel, we got a plot[\ref{fig:2.1}].\\
+
 \begin{figure}[!htbp]
 	\centering %居中
+	\begin{framed}
 	\includegraphics[width=\linewidth]{images/2_1.PNG} %宽度，文件地址
 	\caption{Plot on the Voltage of capacitor in the original circuit with time.} %标题
+	\end{framed}
 	\label{fig:2.1} %标记（引用时用）
 \end{figure}
+
 \phantom{ } After we tried to conduct(for details, please check the Appendix) the formula under the Analysis \#4 in the instruction file, we found that we need to adjust the value of y-axis from $V_{out}(t)$ to $\frac{V_0 - V_{out}(t)}{V_0}$ . Also, it is the y-axis(ratio) that needs to be logarithmic, not x-axis(time).Then we can fit the current plot to a linear line and calculate the time constant from the inverse of the line's slope as shown in the graph[\ref{fig:2.2}].\\
 \begin{figure}[!htbp]
 	\centering %居中
+	\begin{framed}
 	\includegraphics[width=\linewidth]{images/2_2.PNG} %宽度，文件地址
 	\caption{plot on the logarithmic ratio ({\tiny }) in the original circuit with time.} %标题
+	\end{framed}
 	\label{fig:2.2} %标记（引用时用）
+
 \end{figure}
 %\phantom{ } 
 Then we fit a linear line to this plot, and we get a slope of -4970.
@@ -55,17 +62,18 @@ $\tau = RC = 10\mathrm{k\Omega} \times 0.01\mathrm{\mu F} = 1\times10^{-4}\mathr
 \phantom{ } We think it was pretty strange, so we used the multimeter to measure the actual value of the resistor and capacitor we used in our circuit. From measurement, we found that the real value of resistor was 10.1$\mathrm{k\Omega}$, which was quite near to its printed value 10$\mathrm{k\Omega}$. However, the capacitor's real value had a great error with its printed value. The capacitor we used had an actual capacity of 18.3nF. After we put the real value of our elements into the calculation of theoretical value of time constant, we got
 $\tau = RC = 10.1\mathrm{k\Omega} \times 18.3 \mathrm{nF} = 1.85\times10^{-4}\mathrm{s}$, which led to a percent error of 8.76\%, a quite better result than before.\\
 \phantom{ } But there are still some difference. We discussed and think that the possible resource of difference might be among the list below:\\
-1. The oscilloscope had a measure error on the output signal.(May caused by the interference of the current in the circuit and other reasons)\\
+1. The oscilloscope had a measure error on the output signal.\\
 2. The resistor in the cables and experimental boards were not taken into account.\\
 3. The capacitor showed an unstable value for its capacity when we measured it, so its capacity may be easily influenced by some factors in the environment(such as temperature).\\
-4. The capacitor may act like a resistor or an inductor at extreme frequencies.\\
 \newline
 \textbf{Analyze \#5:} \newline
 \phantom{ } To finish this analysis, we built a two-stage circuit and then a three-stage circuit. Our two-stage circuit is built according to graph[\ref{fig:2.3}].\\
 \begin{figure}[!htbp]
 	\centering %居中
+	\begin{framed}
 	\includegraphics[width=\linewidth]{images/2_3.PNG} %宽度，文件地址
 	\caption{The circuit graph of two-stage circuit} %标题
+	\end{framed}
 	\label{fig:2.3} %标记（引用时用）
 \end{figure}
 \phantom{ } In the same way as in the original circuit, we measure 10 points to compute its time constant.
@@ -118,8 +126,10 @@ $\tau = 3RC = 3\times1.85\times10^{-4} = 5.55\times10^{-4}$s and the percent err
 \phantom{ } Our three-stage circuit was built based on graph[\ref{fig:2.4}].\\
 \begin{figure}[!htbp]
 	\centering %居中
+	\begin{framed}
 	\includegraphics[width=\linewidth]{images/2_4.PNG} %宽度，文件地址
 	\caption{The circuit graph of three-stage circuit} %标题
+\end{framed}
 	\label{fig:2.4} %标记（引用时用）
 \end{figure}
 \phantom{ }And our measure points are listed in table[\ref{tab:eri}].\\
@@ -176,6 +186,6 @@ the theoretical value of time constant in this case:
 $\tau = 6RC = 6\times1.85\times10^{-4} = 1.11\times10^{-3}$s and the percent error $error = 4.23\%$.\\
 \phantom{ } We thought the reason for the difference may among these reasons:\\
 1. Some existing reasons that we have already mentioned in Analysis 4.\\
-2. The resistors and capacitors we used to build two-stage and three-stage circuit may be different from those in the original circuit, thus causing some difference.\\
-3. Other equipment errors caused by adding more elements and wires in our circuit.\\
+2. The resistors and capacitors we used to build new circuits may be different from those in the original circuit, thus causing some difference.\\
+%3. Other equipment errors caused by adding more elements and wires in our circuit.\\
 
